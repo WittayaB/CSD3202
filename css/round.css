@@ -1,0 +1,98 @@
+/* styles.css */
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px; /* เพิ่มช่องว่างด้านล่าง */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px; /* จำกัดความกว้างของตาราง */
+    margin: 0 auto; /* จัดตารางให้อยู่กลาง */
+}
+
+.booking-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    margin: auto;
+}
+
+label {
+    margin-top: 10px;
+    display: block;
+    color: #555;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="time"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 20px;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 15px; /* เพิ่มช่องว่างภายในเซลล์ */
+    text-align: left; /* จัดตำแหน่งข้อความไปทางซ้าย */
+    border: 1px solid #ddd; /* เพิ่มขอบให้เซลล์ */
+    line-height: 1.5; /* เพิ่มระยะห่างระหว่างบรรทัด */
+    
+    
+}
+
+
+th {
+    background-color: #f2f2f2;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+select {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
