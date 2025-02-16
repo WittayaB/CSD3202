@@ -1,0 +1,15 @@
+CSS
+.movie-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.movie-item {
+    width: 200px;
+    margin: 10px;
+}
+
+.movie-item img {
+    width: 100%;
+}
